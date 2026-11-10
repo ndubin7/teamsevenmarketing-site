@@ -231,7 +231,9 @@ section { padding: 104px 0; }
 .contact-box small { display: block; color: #8fa1b4; margin-bottom: 4px; font-size: .74rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 600; }
 .contact-box a, .contact-box span { color: #fff; font-weight: 600; text-decoration: none; word-break: break-word; }
 .contact-box a:hover { color: var(--accent); }
-.contact-box .btn { margin-top: 24px; width: 100%; }
+.contact-actions { display: grid; gap: 10px; margin-top: 24px; }
+.contact-box .btn { width: 100%; cursor: pointer; font-family: inherit; }
+.contact-box .btn.copied { background: #14968a; }
 
 /* Footer */
 .site-footer { padding: 44px 0; border-top: 1px solid var(--line); font-size: .9rem; color: var(--muted); }
